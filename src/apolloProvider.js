@@ -7,7 +7,7 @@ import { ApolloProvider } from '@apollo/react-hooks';
 import { setContext } from 'apollo-link-context';
 
 const httpLink = createHttpLink({
-  uri: 'http://localhost:8900'
+  uri: 'https://enigmatic-everglades-82127.herokuapp.com/'
 });
 
 const authLink = setContext(() => {
